@@ -14,13 +14,15 @@
 		F30B17CA18C49D320098C575 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F30B17C918C49D320098C575 /* main.m */; };
 		F30B17CE18C49D320098C575 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F30B17CD18C49D320098C575 /* AppDelegate.m */; };
 		F30B17D118C49D320098C575 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30B17CF18C49D320098C575 /* Main.storyboard */; };
-		F30B17D418C49D320098C575 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F30B17D318C49D320098C575 /* ViewController.m */; };
 		F30B17D618C49D320098C575 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30B17D518C49D320098C575 /* Images.xcassets */; };
 		F30B17DD18C49D320098C575 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30B17DC18C49D320098C575 /* XCTest.framework */; };
 		F30B17DE18C49D320098C575 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30B17BD18C49D320098C575 /* Foundation.framework */; };
 		F30B17DF18C49D320098C575 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30B17C118C49D320098C575 /* UIKit.framework */; };
 		F30B17E718C49D320098C575 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F30B17E518C49D320098C575 /* InfoPlist.strings */; };
 		F30B17E918C49D320098C575 /* ServerConnectionExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F30B17E818C49D320098C575 /* ServerConnectionExampleTests.m */; };
+		F30B17F418C4A2930098C575 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F30B17F318C4A2930098C575 /* LoginViewController.m */; };
+		F30B17FB18C4AE650098C575 /* MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = F30B17FA18C4AE650098C575 /* MD5.m */; };
+		F30B17FE18C4B7380098C575 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F30B17FD18C4B7380098C575 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +47,18 @@
 		F30B17CC18C49D320098C575 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F30B17CD18C49D320098C575 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F30B17D018C49D320098C575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F30B17D218C49D320098C575 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F30B17D318C49D320098C575 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F30B17D518C49D320098C575 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F30B17DB18C49D320098C575 /* ServerConnectionExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServerConnectionExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F30B17DC18C49D320098C575 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F30B17E418C49D320098C575 /* ServerConnectionExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ServerConnectionExampleTests-Info.plist"; sourceTree = "<group>"; };
 		F30B17E618C49D320098C575 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F30B17E818C49D320098C575 /* ServerConnectionExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerConnectionExampleTests.m; sourceTree = "<group>"; };
+		F30B17F218C4A2930098C575 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		F30B17F318C4A2930098C575 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		F30B17F918C4AE650098C575 /* MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5.h; sourceTree = "<group>"; };
+		F30B17FA18C4AE650098C575 /* MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5.m; sourceTree = "<group>"; };
+		F30B17FC18C4B7380098C575 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F30B17FD18C4B7380098C575 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +121,10 @@
 				F30B17CC18C49D320098C575 /* AppDelegate.h */,
 				F30B17CD18C49D320098C575 /* AppDelegate.m */,
 				F30B17CF18C49D320098C575 /* Main.storyboard */,
-				F30B17D218C49D320098C575 /* ViewController.h */,
-				F30B17D318C49D320098C575 /* ViewController.m */,
+				F30B17F918C4AE650098C575 /* MD5.h */,
+				F30B17FA18C4AE650098C575 /* MD5.m */,
+				F30B17F518C4A29A0098C575 /* LoginViewController */,
+				F30B17FF18C4B73C0098C575 /* MainViewController */,
 				F30B17D518C49D320098C575 /* Images.xcassets */,
 				F30B17C418C49D320098C575 /* Supporting Files */,
 			);
@@ -150,6 +158,24 @@
 				F30B17E518C49D320098C575 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F30B17F518C4A29A0098C575 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F30B17F218C4A2930098C575 /* LoginViewController.h */,
+				F30B17F318C4A2930098C575 /* LoginViewController.m */,
+			);
+			name = LoginViewController;
+			sourceTree = "<group>";
+		};
+		F30B17FF18C4B73C0098C575 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F30B17FC18C4B7380098C575 /* MainViewController.h */,
+				F30B17FD18C4B7380098C575 /* MainViewController.m */,
+			);
+			name = MainViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,8 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F30B17D418C49D320098C575 /* ViewController.m in Sources */,
+				F30B17F418C4A2930098C575 /* LoginViewController.m in Sources */,
 				F30B17CE18C49D320098C575 /* AppDelegate.m in Sources */,
+				F30B17FB18C4AE650098C575 /* MD5.m in Sources */,
+				F30B17FE18C4B7380098C575 /* MainViewController.m in Sources */,
 				F30B17CA18C49D320098C575 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
